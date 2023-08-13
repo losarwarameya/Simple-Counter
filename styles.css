@@ -1,0 +1,30 @@
+main{
+    min-height: 95vh;
+    display: grid;
+    place-items: center;
+}
+
+.container {
+    text-align: center;
+
+}
+h1{
+    margin: 0;
+    font-size: 80px;
+}
+#counter{
+    font-size: 100px;
+}
+
+.btn{
+    font-size: 15px;
+    padding: 5px;
+    margin: 0 10px;
+    background-color: white;
+    border-radius: 10px;
+}
+.btn:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
